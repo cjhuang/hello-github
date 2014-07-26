@@ -1,1 +1,22 @@
-git remote
+1. add new file or directory
+fistly get update use "git fetch"
+(a). use command : git add . #tell git to take a snapshot of the contents of all files under the current directory
+(b). creat the files or directories you want
+(c). use command : git add files directories #add their updated contents to the index
+(d). use command : git commit #prompt you for a message describing the changes
+(e). use command : git commit -a -m "***" #add the commitment describeing the changes
+(f). use command : git push remote-name branch-name #push to the branch
+next step is to update the local repository
+(g). use command : git fetch remote-name #get the update of remote-name
+(h). use command : git merge remote-name/branch #merge the update with the local repusitory
+
+
+2. modify a file
+fistly get update use "git fetch"
+(a). modify the files
+(b). use command : git commit #prompt you for a message describing the changes
+(c). use command : git commit -a -m "***" #add the commitment describeing the changes
+(e). use command : git push remote-name branch-name #push to the branch
+next step is to update the local repository
+(f). use command : git fetch remote-name #get the update of remote-name
+(g). use command : git merge remote-name/branch #merge the update with the local repusitory
